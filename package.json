@@ -5,6 +5,9 @@
   "repository": "git@github.com:haiiiiiyun/webpack-practice.git",
   "author": "Jiang Haiyun <jiang.haiyun@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^3.10.0"
   },
