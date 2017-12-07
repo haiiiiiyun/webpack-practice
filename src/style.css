@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aclonica';
+    src: url('./Aclonica.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'Aclonica';
+    background: url('./icon.png');
+}
