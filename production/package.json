@@ -1,14 +1,12 @@
 {
-  "name": "webpack-practice",
+  "name": "production",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:haiiiiiyun/webpack-practice.git",
-  "author": "Jiang Haiyun <jiang.haiyun@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack.prod.js",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open --config webpack.dev.js"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
